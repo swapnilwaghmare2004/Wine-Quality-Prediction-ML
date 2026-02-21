@@ -5,8 +5,6 @@ This project builds a Machine Learning model to predict wine quality based on ph
 
 The goal is to simulate a real-world industry use case where wineries can use predictive analytics to improve product consistency, reduce manual quality testing, and optimize production parameters.
 
----
-
 # 🎯 Business Objective
 Wine quality traditionally depends on expert sensory evaluation. This project demonstrates how machine learning can:
 
@@ -14,8 +12,6 @@ Wine quality traditionally depends on expert sensory evaluation. This project de
 - Reduce reliance on subjective testing
 - Provide data-driven production insights
 - Identify key chemical factors influencing quality
-
----
 
 # 📊 Dataset Information
 - Total Samples: 6,497
@@ -35,8 +31,6 @@ Wine quality traditionally depends on expert sensory evaluation. This project de
   - Color (encoded)
 - Target Variable: Quality Score
 
----
-
 # 🛠️ Tech Stack
 - Python
 - Pandas
@@ -44,8 +38,6 @@ Wine quality traditionally depends on expert sensory evaluation. This project de
 - Scikit-learn
 - Seaborn
 - Matplotlib
-
----
 
 # 🤖 Machine Learning Model
 Model Used: **Random Forest Regressor**
@@ -55,13 +47,9 @@ Why Random Forest?
 - Reduces overfitting through ensemble learning
 - Provides feature importance for interpretability
 
----
-
 # 📈 Model Evaluation Metrics
 - R² Score
 - Root Mean Squared Error (RMSE)
-
----
 
 # 🔍 Key Insights
 - Alcohol concentration strongly influences wine quality.
@@ -69,10 +57,14 @@ Why Random Forest?
 - Sulphates and citric acid contribute moderately.
 - Machine learning can effectively model chemical-quality relationships.
 
----
-
 # 🚀 How to Run the Project
 
 ## 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/Wine-Quality-Prediction-ML.git
+
+## 2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+## 3️⃣ Run Project
+python wine_quality_prediction.py
