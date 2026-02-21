@@ -68,3 +68,27 @@ pip install -r requirements.txt
 
 ## 3️⃣ Run Project
 python wine_quality_prediction.py
+Graphs will be saved inside the outputs/ folder.
+
+📂 Project Structure
+Wine-Quality-Prediction-ML/
+│
+├── wine_quality_prediction.py
+├── winequality.csv
+├── requirements.txt
+├── README.md
+└── outputs/
+
+##🔮 Future Improvements
+
+Hyperparameter tuning
+Implement XGBoost / LightGBM
+Model deployment using Flask or FastAPI
+Interactive dashboard integration
+
+##💡 Learning Outcomes
+
+End-to-end ML workflow implementation
+Feature importance analysis
+Business-oriented data interpretation
+Reproducible project structuring
